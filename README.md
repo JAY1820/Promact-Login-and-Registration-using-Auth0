@@ -1,7 +1,6 @@
 # Promact-Login-and-Registration-using-Auth0
-Login Authentication Using Auth0 and Microsoft Identity 
 
-```markdown
+Login Authentication Using Auth0 and Microsoft Identity
 
 ## Description
 
@@ -20,7 +19,6 @@ This repository provides a streamlined implementation of user login and registra
 - A Microsoft Azure subscription
 - Familiarity with basic web development concepts
 
-
 ## Configuration
 
 ### 1.Auth0
@@ -33,44 +31,3 @@ Create an Azure Active Directory (AAD) application and configure the following s
 
 - Redirect URI: Match the value specified in src/config.js
 - Supported account types: Select appropriate options (e.g., accounts in any organizational directory)
-
-
-## Installation
-
-Clone this repository:
-
-```bash
-git clone https://github.com/your-username/Promact-Login-and-Registration-using-Auth0.git
-```
-
-Install required dependencies:
-
-```bash
-cd Promact-Login-and-Registration-using-Auth0
-npm install
-```
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
