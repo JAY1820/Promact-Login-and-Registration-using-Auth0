@@ -1,3 +1,9 @@
+/* 
+  The following CSS code defines styles for a React application.
+  The overall design includes a linear gradient background, a spinning logo animation,
+  and a responsive navbar with hover effects. Specific styles are applied to the header, links, homepage,
+  carousel captions, and buttons for a cohesive and visually appealing user interface.
+*/
 .App {
   text-align: center;
   background: linear-gradient(to right, #f0f8ff, #e6f6fe);
@@ -37,6 +43,8 @@
     transform: rotate(360deg);
   }
 }
+
+/* Styles for the navbar */
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -56,15 +64,18 @@
   color: #61dafb;
 }
 
-
+/* Styles for the homepage section */
 .homepage {
   padding: 20px;
 }
 
+/* Styles for the carousel captions */
 .carousel-caption h4 {
   color: black; 
   font-weight: bold; 
 }
+
+/* Styles for buttons with hover and active effects */
 button {
   margin-top: 20px;
   background-color: #4CAF50; 

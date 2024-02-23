@@ -1,3 +1,11 @@
+/*
+  Global Body Styles:
+
+  Resetting the margin to zero ensures a consistent layout across browsers.
+  The font-family property is set to a system font stack for clean and readable text.
+  Webkit and Mozilla font smoothing properties enhance text display on macOS and other systems.
+*/
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,6 +14,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/*
+  Code Styling:
+
+  The following styles are applied to code elements to enhance the appearance of code snippets.
+  The font-family is set to a monospace font stack for better code readability.
+*/
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

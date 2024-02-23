@@ -1,3 +1,4 @@
+// Importing necessary libraries and components 
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
 import logo from "./logo.svg";
@@ -5,9 +6,12 @@ import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from 'react-bootstrap';
 
+// Main App component
 function App() {
+    // Destructuring properties from the Auth0 hook useAuth0 
   const { user, isAuthenticated, isLoading, loginWithRedirect, logout } = useAuth0();
 
+  // Navbar component
   const Navbar = () => (
     <div className="navbar">
       <a href="/">Home</a>
@@ -15,7 +19,7 @@ function App() {
       <a href="/contact">Contact</a>
     </div>
   );
-
+      // Rendering the App component login , logout and user details
   return (
     <div className="App">
       <Navbar />
@@ -45,6 +49,7 @@ function App() {
           )
         )}
 
+              {/* Carousel component */}
         <Carousel>
           <Carousel.Item>
             <img
@@ -89,4 +94,6 @@ function App() {
   );
 }
 
+
+// Exporting the App component
 export default App;
