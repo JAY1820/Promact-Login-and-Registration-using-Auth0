@@ -48,6 +48,7 @@ Install required dependencies:
 ```bash
 cd Promact-Login-and-Registration-using-Auth0
 npm install
+npm run start
 ```
 ## Learn More
 
