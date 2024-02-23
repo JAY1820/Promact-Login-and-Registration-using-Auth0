@@ -38,7 +38,7 @@ npm run start
 
 1. **Login**: Users can log in using their Auth0 credentials or their Microsoft account. The login process is handled by Auth0, issuing an access token upon successful authentication.
 
-## Note: Users are required to log in with their GitHub account on the site to access the Microsoft Enterprise.
+*Note: Users are required to log in with their GitHub account on the site to access the Microsoft Enterprise.*
 
 2. **Sign Up**: New users can sign up using their email address and password. Auth0 manages the registration process and securely stores user credentials.
 
